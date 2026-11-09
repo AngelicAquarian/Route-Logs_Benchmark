@@ -1,0 +1,4 @@
+state,insert_ms,update_ms,total_write_ms,size_after_update_mb,read_latency_ms,plan,index_only_scan,heap_fetches,shared_hit_blocks,shared_read_blocks
+A,8460.5,1353.84,9814.34,84.9,19.4,Gather -> Seq Scan,False,0,8121,0
+B,14664.13,5079.73,19743.86,159.2,0.03,Index Scan,False,0,2,2
+C,10938.17,2829.16,13767.33,159.62,0.03,Index Only Scan,True,0,4,0
